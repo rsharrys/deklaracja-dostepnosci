@@ -1,0 +1,25 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-wafelmedia-deklaracja-dostepnosci {
+    p,
+    ul,
+    li {
+        margin-top: 0.5rem;
+    }
+    input,
+    select {
+        background-color: #fff;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+}
+
+/**
+* Calendar
+*/
+.components-popover__content {
+    padding: 1rem;
+}

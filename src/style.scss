@@ -1,0 +1,40 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-wafelmedia-deklaracja-dostepnosci {
+    h2 {
+        margin-block-start: 2rem;
+    }
+    h3,
+    h4,
+    img {
+        margin-block-start: 1.5rem;
+    }
+    p,
+    ul {
+        margin-block-start: 1rem;
+    }
+    .group {
+        margin-left: 2rem;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .copyright {
+        font-size: 1rem;
+        margin-top: 40px;
+        &:before {
+            content: ""; /* Tworzy pusty element przed paragrafem */
+            display: block; /* Ustawia go jako blokowy, aby można było ustawić szerokość i wysokość */
+            width: 100px; /* Szerokość linii */
+            height: 1px; /* Grubość linii */
+            background-color: #ccc; /* Kolor linii */
+            margin-bottom: 10px; /* Odstęp między linią a tekstem paragrafu */
+        }
+    }
+}

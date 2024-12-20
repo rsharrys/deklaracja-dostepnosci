@@ -1,0 +1,132 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wafelmedia/deklaracja-dostepnosci",
+	"version": "0.1.0",
+	"title": "Deklaracja Dostepnosci",
+	"category": "widgets",
+	"icon": "universal-access-alt",
+	"description": "Block Deklaracja Dostępności to opis dostępności podmiotu publicznego dla osób z niepełnosprawnościami. Informuje te osoby o rozwiązaniach, ale też problemach, jakie spotkają na stronie internetowej, w aplikacji mobilnej i budynkach danego podmiotu publicznego.",
+	"example": {},
+	"supports": {
+		"html": false,
+		"align": [
+			"full",
+			"wide"
+		],
+		"layout": true
+	},
+	"attributes": {
+		"isLayoutConstrained": {
+			"type": "boolean",
+			"default": false
+		},
+		"a11yPodmiot": {
+			"type": "string"
+		},
+		"a11yNazwaStrony": {
+			"type": "string"
+		},
+		"a11yUrlStrony": {
+			"type": "string"
+		},
+		"a11yPubStrona": {
+			"type": "string"
+		},
+		"a11yUpdateStrona": {
+			"type": "string"
+		},
+		"a11yStatusZgodnosci": {
+			"type": "string"
+		},
+		"a11yNiezgodnosc1": {
+			"type": "string"
+		},
+		"a11yNiezgodnosc2": {
+			"type": "string"
+		},
+		"a11yNiezgodnosc3": {
+			"type": "string"
+		},
+		"a11yOcena": {
+			"type": "string"
+		},
+		"a11yOcenaUrl": {
+			"type": "string"
+		},
+		"a11yOcenaNazwa": {
+			"type": "string"
+		},
+		"a11yPubDeklaracja": {
+			"type": "string"
+		},
+		"a11yUpdateDeklaracja": {
+			"type": "string"
+		},
+		"a11yOsoba": {
+			"type": "string"
+		},
+		"a11yEmail": {
+			"type": "string"
+		},
+		"a11yTelefon": {
+			"type": "string"
+		},
+		"a11yArchitektura": {
+			"type": "string"
+		},
+		"a11yArchitekturaArray": {
+			"type": "array",
+			"default": [
+				{
+					"miejsce": "",
+					"opis": "",
+					"obraz": ""
+				}
+			]
+		},
+		"a11yKomunikacja": {
+			"type": "string"
+		},
+		"a11yUdogodnienia1": {
+			"type": "string"
+		},
+		"a11yUdogodnienia2": {
+			"type": "string"
+		},
+		"a11yApp": {
+			"type": "string"
+		},
+		"a11yInfo": {
+			"type": "string"
+		},
+		"a11yKlawiatura": {
+			"type": "string"
+		},
+		"a11yUrzadOsoba": {
+			"type": "string"
+		},
+		"a11yUrzadNazwa": {
+			"type": "string"
+		},
+		"a11yUrzadEmail": {
+			"type": "string"
+		},
+		"a11yUrzadTelefon": {
+			"type": "string"
+		},
+		"a11yUrzadAdres": {
+			"type": "string"
+		},
+		"pageTitle": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"textdomain": "wafelmedia-deklaracja-dostepnosci",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}

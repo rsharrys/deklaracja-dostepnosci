@@ -1,0 +1,1 @@
+=== Wafelmedia Deklaracja Dostepnosci Block ===

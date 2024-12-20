@@ -1,0 +1,17 @@
+{
+    "name": "Wafelmedia Deklaracja Dostepnosci",
+    "slug": "wafelmedia-deklaracja-dostepnosci",
+    "author": "<a href=\"https://rafal.muko.pl\">Rafał Siemiński</a>",
+    "author_profile": "http://profiles.wordpress.org/rafalsieminski/",
+    "version": "1.7.0",
+    "download_url": "https://wafelmedia.pl/plugins/wafelmedia-deklaracja-dostepnosci/wafelmedia-deklaracja-dostepnosci.zip",
+    "requires": "6.5",
+    "tested": "6.7",
+    "requires_php": "7.4",
+    "last_updated": "2024-12-19 23:54:07",
+    "sections": {
+        "description": "Prosta Deklaracja Dostępności zgodna z WCAG 2.1 jako Block dla WordPress",
+        "installation": "",
+        "changelog": ""
+    }
+}
